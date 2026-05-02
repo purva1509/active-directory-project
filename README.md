@@ -4,7 +4,7 @@ In this project, I designed and implemented an **Active Directory environment** 
 
 I started by setting up a **root domain** called **purvatech.local**, which is managed by the **primary domain controller (DC1)**. To improve reliability and ensure the system remains available even if one server fails, I also configured a **secondary domain controller (DC2)**. Both controllers work together and stay synchronized through **replication**.
 
-Within the root domain, I organized the system into three main departments — **Development, Support, and QA** — using **Organizational Units (OUs)**. These OUs help separate users based on their roles, making it easier to manage **access** and apply **policies**.
+Within the root domain, I organized the system into three main departments **Development, Support, and QA** using **Organizational Units (OUs)**. These OUs help separate users based on their roles, making it easier to manage **access** and apply **policies**.
 
 To simulate a more realistic enterprise environment, I created three **child domains**:
 
@@ -37,6 +37,8 @@ The overall goal of this project was to build a system that is:
 - **Suitable for implementing access control and security policies**  
 
 Through this project, I gained hands-on experience in **Active Directory design, domain hierarchy, user management, and enterprise-level identity structure**.
+
+![Architecture](screenshots/step1-architecture.jpg)
 
 ---
 

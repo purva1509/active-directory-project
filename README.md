@@ -78,3 +78,6 @@ I also reviewed important system details, including:
 - Operating system: Windows Server 2022  
 
 This step ensured that the server environment is stable and properly configured before proceeding with further Active Directory setup tasks such as domain management, OU creation, and user configuration.
+
+
+![Server Configuration](screenshots/step2-server-configuration.png)

@@ -110,3 +110,22 @@ This structure improves **administrative control** and supports **scalability** 
 ![Development OU](screenshots/step4-ou-development.png)
 ![Support OU](screenshots/step4-ou-support.png)
 ![QA OU](screenshots/step4-ou-qa.png)
+
+## ⚙️ Step 5: Adding Users to Organizational Units
+
+
+In this step, I created and added **users** in **Active Directory** under their respective **Organizational Units (OUs)**.
+
+I used the **Active Directory Users and Computers (ADUC)** console to assign users based on their departments:
+
+- **Development:** Dhrupa Gandhi, Het Patel  
+- **Support:** Tiya Shah, Maunash Patel  
+- **QA:** Riddhi Patel, Nikolai Wang  
+
+This setup helps in **organizing users**, improving **access control**, and making it easier to apply **Group Policies (GPOs)** for each department.
+
+It also reflects a **real-world enterprise structure**, where users are grouped based on roles and responsibilities.
+
+![Development Users](screenshots/step5-users-development.png)
+![Support Users](screenshots/step5-users-support.png)
+![QA Users](screenshots/step5-users-qa.png)

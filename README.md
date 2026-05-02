@@ -42,7 +42,7 @@ Through this project, I gained hands-on experience in **Active Directory design,
 
 ---
 
-## Step 1: Installing Active Directory Domain Services (AD DS)
+## ⚙️ Step 1: Installing Active Directory Domain Services (AD DS)
 
 In this step, I started by installing the **Active Directory Domain Services (AD DS)** role on my Windows Server machine named **Purva-1242D** using **Server Manager**.
 
@@ -57,3 +57,22 @@ Along with AD DS, additional components such as:
 were also installed automatically. These tools are important for managing **users, policies, and directory services**.
 
 At this point, the server is not yet a **domain controller**, but it is fully prepared to be promoted into one in the next step.
+
+
+![AD DS Installation](screenshots/step1-ad-ds-installation.png)
+
+## ⚙️ Step 2: Verifying Server Configuration
+
+After installing the Active Directory Domain Services (AD DS) role, I verified the server configuration using the **Local Server** section in Server Manager.
+
+I confirmed that the server was successfully connected to the domain **purvatech.local**, which indicates that the domain setup is active and functioning correctly.
+
+I also reviewed important system details, including:
+- Computer name: Purva-1242D  
+- Domain: purvatech.local  
+- Firewall status  
+- Remote management settings  
+- IP address configuration  
+- Operating system: Windows Server 2022  
+
+This step ensured that the server environment is stable and properly configured before proceeding with further Active Directory setup tasks such as domain management, OU creation, and user configuration.

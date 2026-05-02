@@ -129,3 +129,22 @@ It also reflects a **real-world enterprise structure**, where users are grouped 
 ![Development Users](screenshots/step5-users-development.png)
 ![Support Users](screenshots/step5-users-support.png)
 ![QA Users](screenshots/step5-users-qa.png)
+
+## ⚙️ Step 6: Final Organizational Unit Structure Verification
+
+
+In this step, I verified the complete **Organizational Unit (OU) structure** in **Active Directory** using the **Active Directory Users and Computers (ADUC)** console.
+
+The final structure includes:
+
+- **Development OU**
+- **Support OU**
+- **QA OU**
+
+Each OU contains users organized based on their respective departments.
+
+This verification confirms that the **directory structure is properly configured**, ensuring efficient **user management**, **access control**, and readiness for applying **Group Policies (GPOs)**.
+
+The setup reflects a **real-world enterprise environment**, where users and resources are structured logically for better administration and scalability.
+
+![Final OU Structure](screenshots/step6-final-ou-structure.png)

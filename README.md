@@ -148,3 +148,11 @@ This verification confirms that the **directory structure is properly configured
 The setup reflects a **real-world enterprise environment**, where users and resources are structured logically for better administration and scalability.
 
 ![Final OU Structure](screenshots/step6-final-ou-structure.png)
+
+## 📌 Summary
+
+In this project, I built an **Active Directory environment** using **Windows Server** to simulate a real-world organization. I created a **root domain (purvatech.local)** with two **domain controllers** for reliability.
+
+Users were organized into departments (**Development, Support, QA**) using **Organizational Units (OUs)**, and users were added to each department. This setup improves **user management**, **access control**, and **policy application**.
+
+Overall, this project demonstrates my understanding of **Active Directory**, **domain structure**, and **Identity & Access Management (IAM)** concepts.

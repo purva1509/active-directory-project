@@ -61,6 +61,7 @@ At this point, the server is not yet a **domain controller**, but it is fully pr
 
 ![AD DS Installation](screenshots/step1-ad-ds-installation.png)
 
+
 ## ⚙️ Step 2: Verifying Server Configuration
 
 After installing the Active Directory Domain Services (AD DS) role, I verified the server configuration using the **Local Server** section in Server Manager.

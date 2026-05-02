@@ -81,3 +81,14 @@ This step ensured that the server environment is stable and properly configured 
 
 
 ![Server Configuration](screenshots/step2-server-configuration.png)
+
+## Step 3: Creating Organizational Unit (OU)
+
+
+In this step, I created an Organizational Unit (OU) in Active Directory under the domain purvatech.local.
+
+I used the Active Directory Users and Computers console to create a new OU. Organizational Units are used to organize users and resources based on departments or roles.
+
+This helps in managing users more efficiently and allows applying Group Policies to specific groups within the organization.
+
+![Create OU](screenshots/step3-create-ou.png)

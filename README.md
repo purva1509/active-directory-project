@@ -82,7 +82,7 @@ This step ensured that the server environment is stable and properly configured 
 
 ![Server Configuration](screenshots/step2-server-configuration.png)
 
-## Step 3: Creating Organizational Unit (OU)
+## ⚙️ Step 3: Creating Organizational Unit (OU)
 
 
 In this step, I created an Organizational Unit (OU) in Active Directory under the domain purvatech.local.
@@ -92,3 +92,21 @@ I used the Active Directory Users and Computers console to create a new OU. Orga
 This helps in managing users more efficiently and allows applying Group Policies to specific groups within the organization.
 
 ![Create OU](screenshots/step3-create-ou.png)
+
+## ⚙️ Step 4: Creating Organizational Units (OUs)
+
+In this step, I created multiple **Organizational Units (OUs)** in **Active Directory** under the domain **purvatech.local**.
+
+I used the **Active Directory Users and Computers (ADUC)** console to create separate OUs for:
+
+- **Development**
+- **Support**
+- **QA**
+
+These OUs help in **organizing users by department**, making it easier to manage **access control** and apply **Group Policies (GPOs)** efficiently.
+
+This structure improves **administrative control** and supports **scalability** in a real-world enterprise environment.
+
+![Development OU](screenshots/step4-ou-development.png)
+![Support OU](screenshots/step4-ou-support.png)
+![QA OU](screenshots/step4-ou-qa.png)

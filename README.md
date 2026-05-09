@@ -1,5 +1,14 @@
 # 💼 Active Directory Multi-Domain Design
 
+![Windows Server](https://img.shields.io/badge/Windows_Server-2022-0078D4?style=for-the-badge&logo=windows&logoColor=white)
+![Active Directory](https://img.shields.io/badge/Active_Directory-Domain_Services-00A4EF?style=for-the-badge&logo=microsoft&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5.1-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+
+**Skills:** Active Directory · Domain Controllers · Organizational Units · Group Policy · User Provisioning · IAM · Windows Server 2022
+
+---
+
 In this project, I designed and implemented an **Active Directory environment** that represents how a real organization manages its **departments, users, and domain structure**.
 
 I started by setting up a **root domain** called **purvatech.local**, which is managed by the **primary domain controller (DC1)**. To improve reliability and ensure the system remains available even if one server fails, I also configured a **secondary domain controller (DC2)**. Both controllers work together and stay synchronized through **replication**.
@@ -82,36 +91,24 @@ This step ensured that the server environment is stable and properly configured 
 
 ![Server Configuration](screenshots/step2-server-configuration.png)
 
-## ⚙️ Step 3: Creating Organizational Unit (OU)
+## ⚙️ Step 3: Creating Organizational Units (OUs)
 
+In this step, I created **Organizational Units (OUs)** in **Active Directory** under the domain **purvatech.local** using the **Active Directory Users and Computers (ADUC)** console.
 
-In this step, I created an Organizational Unit (OU) in Active Directory under the domain purvatech.local.
-
-I used the Active Directory Users and Computers console to create a new OU. Organizational Units are used to organize users and resources based on departments or roles.
-
-This helps in managing users more efficiently and allows applying Group Policies to specific groups within the organization.
-
-![Create OU](screenshots/step3-create-ou.png)
-
-## ⚙️ Step 4: Creating Organizational Units (OUs)
-
-In this step, I created multiple **Organizational Units (OUs)** in **Active Directory** under the domain **purvatech.local**.
-
-I used the **Active Directory Users and Computers (ADUC)** console to create separate OUs for:
+OUs are used to organize users and resources based on departments or roles. I created separate OUs for:
 
 - **Development**
 - **Support**
 - **QA**
 
-These OUs help in **organizing users by department**, making it easier to manage **access control** and apply **Group Policies (GPOs)** efficiently.
+These OUs help in **organizing users by department**, making it easier to manage **access control** and apply **Group Policies (GPOs)** efficiently. This structure improves **administrative control** and supports **scalability** in a real-world enterprise environment.
 
-This structure improves **administrative control** and supports **scalability** in a real-world enterprise environment.
-
+![Create OU](screenshots/step3-create-ou.png)
 ![Development OU](screenshots/step4-ou-development.png)
 ![Support OU](screenshots/step4-ou-support.png)
 ![QA OU](screenshots/step4-ou-qa.png)
 
-## ⚙️ Step 5: Adding Users to Organizational Units
+## ⚙️ Step 4: Adding Users to Organizational Units
 
 
 In this step, I created and added **users** in **Active Directory** under their respective **Organizational Units (OUs)**.
@@ -130,7 +127,7 @@ It also reflects a **real-world enterprise structure**, where users are grouped 
 ![Support Users](screenshots/step5-users-support.png)
 ![QA Users](screenshots/step5-users-qa.png)
 
-## ⚙️ Step 6: Final Organizational Unit Structure Verification
+## ⚙️ Step 5: Final Organizational Unit Structure Verification
 
 
 In this step, I verified the complete **Organizational Unit (OU) structure** in **Active Directory** using the **Active Directory Users and Computers (ADUC)** console.
